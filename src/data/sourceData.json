@@ -1,0 +1,22 @@
+[
+    {
+        "label": "Ads",
+        "value" : 32
+    },
+    {
+        "label": "Subscriptions",
+        "value" : 45
+    },
+    {
+        "label": "Sponsorship",
+        "value" : 11
+    },
+    {
+        "label": "Price",
+        "value" : 50
+    },
+    {
+        "label": "Return",
+        "value" : 77
+    }
+]
