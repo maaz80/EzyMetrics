@@ -47,7 +47,7 @@ const Leads = () => {
       <h1 className="text-2xl md:text-3xl font-bold text-gray-400 p-3">Leads Dashboard</h1>
       <div className="flex flex-wrap justify-center gap-6">
         {leads.map((lead) => (
-          <div key={lead.id} className="bg-white rounded-lg shadow-md p-2 md:p-4 w-72 transition-shadow duration-300 hover:shadow-lg flex-wrap overflow-hidden">
+          <div key={lead.id} className="bg-white flex  flex-col justify-between rounded-lg shadow-md p-2 md:p-4 w-72 transition-shadow duration-300 hover:shadow-lg flex-wrap overflow-hidden">
             <img 
               src={lead.image || 'https://via.placeholder.com/150'} 
               alt={`${lead.firstName} ${lead.lastName}`} 

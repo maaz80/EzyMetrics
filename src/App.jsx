@@ -14,8 +14,8 @@ const App = () => {
         <Sidebar />
         <div className="flex-grow ">
           <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/leads" element={<Leads />} />
+            <Route path="/" element={<Leads />} />
+            <Route path="/leads" element={<Dashboard />} />
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/reports" element={<Reports />} />
             <Route path="/leaddetails/:id" element={<LeadDetails />} />
