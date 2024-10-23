@@ -112,32 +112,32 @@ const Analytics = () => {
     <div className="min-h-screen p-4 bg-gray-100 ">
       <div className="container mx-auto overflow-y-scroll h-screen">
         <header className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-800 text-center sm:text-left">
+          <h1 className="text-2xl md:text-3xl font-bold text-gray-800 text-center sm:text-left">
             Analytics Dashboard
           </h1>
         </header>
 
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 ">
           {/* Line Chart */}
-          <div className="bg-white p-1 md:p-6 pb-16 rounded-lg shadow-lg" style={{ height: '400px' }}>
+          <div className="bg-white p-1  pb-16 rounded-lg shadow-lg" style={{ height: '300px' }}>
             <h2 className="text-xl font-semibold mb-4">Age Distribution (Line Chart)</h2>
             <Line data={lineChartData} />
           </div>
 
           {/* Bar Chart */}
-          <div className="bg-white p-1 md:p-6 pb-16 rounded-lg shadow-lg" style={{ height: '400px' }}>
+          <div className="bg-white p-1  pb-16 rounded-lg shadow-lg" style={{ height: '300px' }}>
             <h2 className="text-xl font-semibold mb-4">Height Distribution (Bar Chart)</h2>
             <Bar data={barChartData} />
           </div>
 
           {/* Doughnut Chart */}
-          <div className="bg-white p-1 md:p-6 pb-16 rounded-lg shadow-lg" style={{ height: '400px' }}>
+          <div className="bg-white p-1  pb-16 rounded-lg shadow-lg" style={{ height: '300px' }}>
             <h2 className="text-xl font-semibold mb-4">Roles (Doughnut Chart)</h2>
             <Doughnut data={doughnutChartData} />
           </div>
 
           {/* Polar Area Chart */}
-          <div className="bg-white p-1 md:p-6 pb-16 rounded-lg shadow-lg" style={{ height: '400px' }}>
+          <div className="bg-white p-1  pb-16 rounded-lg shadow-lg" style={{ height: '300px' }}>
             <h2 className="text-xl font-semibold mb-4">Blood Group Distribution (Polar Area Chart)</h2>
             <PolarArea data={polarAreaChartData} />
           </div>
