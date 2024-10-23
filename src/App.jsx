@@ -14,10 +14,10 @@ const App = () => {
         <Sidebar />
         <div className="flex-grow ">
           <Routes>
-            <Route path="/" element= {<Reports />}/>
+            <Route path="/" element= {<Dashboard />}/>
             <Route path="/leads" element={<Leads />} />
             <Route path="/analytics" element={<Analytics />}/>
-            <Route path="/reports" element= {<Dashboard />}/>
+            <Route path="/reports" element= {<Reports />}/>
             <Route path="/leaddetails/:id" element={<LeadDetails />} />
           </Routes>
         </div>
